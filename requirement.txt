@@ -1,12 +1,12 @@
 # Python version
-python==3.10.1
+python
 
 # Streamlit for creating web applications
-streamlit==1.19.0
+streamlit
 
 # Data manipulation library
-pandas==1.3.3
+pandas
 
 # Plotting library
-plotly == 2.27.0
-matplotlib==3.4.3
+plotly 
+
