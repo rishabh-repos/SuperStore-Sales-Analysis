@@ -8,7 +8,7 @@ warnings.filterwarnings('ignore')
 
 
 #first we are setting up the page configurations such as name, icon, and theme
-st.set_page_config(page_title="Superstore_Sales_Analysis", page_icon=":bar_chart:",layout="wide",theme="dark")
+st.set_page_config(page_title="Superstore_Sales_Analysis", page_icon=":bar_chart:",layout="wide")
 
 st.title(":department_store: SuperStore")
 st.markdown('<style>h1 { text-align: center; } div.block-container{padding-top:1rem;}</style>',unsafe_allow_html=True)
