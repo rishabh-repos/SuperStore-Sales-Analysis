@@ -7,7 +7,8 @@ import matplotlib.pyplot as plt
 warnings.filterwarnings('ignore')
 
 
-#first we are setting up the page configurations such as name and icon
+#first we are setting up the page configurations such as name, icon, and theme
+st.set_theme('dark')
 st.set_page_config(page_title="Superstore_Sales_Analysis", page_icon=":bar_chart:",layout="wide")
 
 st.title(":department_store: SuperStore")
