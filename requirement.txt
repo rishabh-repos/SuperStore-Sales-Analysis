@@ -1,12 +1,1 @@
-# Python version
-python
-
-# Streamlit for creating web applications
-streamlit
-
-# Data manipulation library
-pandas
-
-# Plotting library
-plotly 
-
+streamlit == 1.12.0
