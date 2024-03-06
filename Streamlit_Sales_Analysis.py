@@ -3,7 +3,20 @@ import plotly.express as px
 import pandas as pd
 import os
 import warnings
+import matplotlib.pyplot as plt
 warnings.filterwarnings('ignore')
+
+# Determine the directory path dynamically based on the environment
+# For Streamlit Cloud, you may need to use different logic to determine the correct path
+# Example: Use environment variables or configuration files to specify the path
+directory_path = "/path/to/your/directory"
+
+# Check if the directory exists before attempting to change to it
+if os.path.exists(directory_path):
+    os.chdir(directory_path)
+else:
+    print("Directory does not exist:", directory_path)
+
 
 #first we are setting up the page configurations such as name and icon
 st.set_page_config(page_title="Superstore_Sales_Analysis", page_icon=":bar_chart:",layout="wide")
